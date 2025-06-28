@@ -5,7 +5,7 @@ FROM amazoncorretto:24
 WORKDIR /app
 
 # Copy the Spring Boot JAR file into the container
-COPY target/taskapp.jar /app/taskapp.jar
+COPY build/libs/taskapp.jar /app/taskapp.jar
 
 # Expose the port your app runs on
 EXPOSE 8080
