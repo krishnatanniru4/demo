@@ -13,7 +13,7 @@ java {
 	}
 }
 bootJar {
-	archiveFileName.set('demo-ebs.jar')
+	archiveFileName.set('taskapp.jar')
 }
 repositories {
 	mavenCentral()
