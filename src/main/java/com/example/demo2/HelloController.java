@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello(){
-        return "Deploy Spring Boot App using AWS Docker Code Build ECR ECS";
+        return "Deploy Spring Boot App using AWS Docker Code Build ECR ECS - CI completed";
     }
 }
